@@ -22,8 +22,8 @@ public class InsuranceSteps extends BaseSteps{
     }
 
     @Step("переход на другое окно")
-    public void switchWindow () {
-        new InsurancePage(driver).switchWindow();
+    public void stepSwitchWindow () {
+        new InsurancePage(driver).stepSwitchWindow();
     }
 
 }

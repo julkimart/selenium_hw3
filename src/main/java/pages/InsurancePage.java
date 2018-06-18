@@ -29,7 +29,7 @@ public class InsurancePage {
         wait.until(ExpectedConditions.visibilityOf(sendAppBtn));
     }
 
-    public void switchWindow () {
+    public void stepSwitchWindow () {
         String parentWindow = BaseSteps.getDriver().getWindowHandle();
         Set<String> handles =  BaseSteps.getDriver().getWindowHandles();
         for(String windowHandle  : handles) {

@@ -40,7 +40,7 @@ public class ExampleTest extends BaseSteps {
 
         insuranceSteps.stepTitle("Страхование путешественников");
         insuranceSteps.stepSendAppBtn();
-        insuranceSteps.switchWindow();
+        insuranceSteps.stepSwitchWindow();
 
 
         sendAppSteps.stepMinSumma();
